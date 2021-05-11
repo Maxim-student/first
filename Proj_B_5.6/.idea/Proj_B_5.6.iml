@@ -1,0 +1,25 @@
+def greet():
+    print("Wellcome to "
+          "tic-tac-toe game")
+    print("----------------")
+    print("Format game-"
+          "enter -x,-y")
+    print("x - line number "
+          "y - column number")
+
+def show():
+    print()
+    print("    | 0  | 1  |  2  | ")
+    print("----------------------")
+    for i ,row in enumirate (field):
+        row_str = f " {i} | { ' | '. join(row)} | "
+        print( row_str)
+        print("----------------------")
+        print()
+
+
+def ask() :
+    while True:
+        cords = input("      your turn"). split
+
+    if
